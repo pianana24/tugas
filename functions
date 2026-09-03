@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void myFunction() {
+  cout << "I just got executed!\n";
+}
+
+int main() {
+  myFunction();
+  myFunction();
+  myFunction();
+  return 0;
+}
+C:\Users\SMKBINAMANDIRI_8\Desktop>g++ shafira6.cpp -o shafira6.exe
+
+C:\Users\SMKBINAMANDIRI_8\Desktop>shafira6
+I just got executed!
+I just got executed!
+I just got executed!
