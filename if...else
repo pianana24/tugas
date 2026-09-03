@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 20;
+  int y = 18;
+  if (x > y) {
+    cout << "x is greater than y";
+  }  
+  return 0;
+}
+C:\Users\SMKBINAMANDIRI_8\Desktop>g++ shafira1.cpp -o shafira1
+
+C:\Users\SMKBINAMANDIRI_8\Desktop>shafira1
+x is greater than y
