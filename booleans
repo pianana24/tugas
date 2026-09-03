@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  bool isCodingFun = true;
+  bool isFishTasty = false;
+
+  cout << boolalpha; // enable printing "true"/"false"
+
+  cout << isCodingFun << "\n";   // Outputs true
+  cout << isFishTasty << "\n";  // Outputs false
+  return 0;
+}
+C:\Users\SMKBINAMANDIRI_8\Desktop>g++ hasna7.cpp -o hasna7.exe
+
+C:\Users\SMKBINAMANDIRI_8\Desktop>hasna7
+true
+false
