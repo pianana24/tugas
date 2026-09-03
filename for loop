@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  for (int i = 5; i > 0; i--) {
+    cout << i << "\n";
+  }
+}
+C:\Users\SMKBINAMANDIRI_8\Desktop>g++ shafira4.cpp -o shafira4.exe
+
+C:\Users\SMKBINAMANDIRI_8\Desktop>shafira4
+5
+4
+3
+2
+1
